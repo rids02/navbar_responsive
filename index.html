@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class='container all_contents'>
+    <div class='row'>
+      <div class='col-sm-2'>
+<div class="container" id='tab_full'>
+  <div class="d-flex align-items-start bg-light">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
+      
+      <button class="active btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-a-tab" data-bs-toggle="pill" data-bs-target="#v-pills-a" type="button" role="tab" aria-controls="v-pills-a" aria-selected="true">a</button>
+      
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-b-tab" data-bs-toggle="pill" data-bs-target="#v-pills-b" type="button" role="tab" aria-controls="v-pills-b" aria-selected="false">b</button>
+      
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-c-tab" data-bs-toggle="pill" data-bs-target="#v-pills-c" type="button" role="tab" aria-controls="v-pills-c" aria-selected="false">c</button>
+      
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-d-tab" data-bs-toggle="pill" data-bs-target="#v-pills-d" type="button" role="tab" aria-controls="v-pills-d" aria-selected="false">d</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-e-tab" data-bs-toggle="pill" data-bs-target="#v-pills-e" type="button" role="tab" aria-controls="v-pills-e" aria-selected="false">e</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-f-tab" data-bs-toggle="pill" data-bs-target="#v-pills-f" type="button" role="tab" aria-controls="v-pills-f" aria-selected="false">f</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-g-tab" data-bs-toggle="pill" data-bs-target="#v-pills-g" type="button" role="tab" aria-controls="v-pills-g" aria-selected="false">g</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-h-tab" data-bs-toggle="pill" data-bs-target="#v-pills-h" type="button" role="tab" aria-controls="v-pills-h" aria-selected="false">h</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-i-tab" data-bs-toggle="pill" data-bs-target="#v-pills-i" type="button" role="tab" aria-controls="v-pills-i" aria-selected="false">i</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-j-tab" data-bs-toggle="pill" data-bs-target="#v-pills-j" type="button" role="tab" aria-controls="v-pills-j" aria-selected="false">j</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-k-tab" data-bs-toggle="pill" data-bs-target="#v-pills-k" type="button" role="tab" aria-controls="v-pills-k" aria-selected="false">k</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-l-tab" data-bs-toggle="pill" data-bs-target="#v-pills-l" type="button" role="tab" aria-controls="v-pills-l" aria-selected="false">l</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-m-tab" data-bs-toggle="pill" data-bs-target="#v-pills-m" type="button" role="tab" aria-controls="v-pills-m" aria-selected="false">m</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-n-tab" data-bs-toggle="pill" data-bs-target="#v-pills-n" type="button" role="tab" aria-controls="v-pills-n" aria-selected="false">n</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-o-tab" data-bs-toggle="pill" data-bs-target="#v-pills-o" type="button" role="tab" aria-controls="v-pills-o" aria-selected="false">o</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-p-tab" data-bs-toggle="pill" data-bs-target="#v-pills-p" type="button" role="tab" aria-controls="v-pills-p" aria-selected="false">p</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-q-tab" data-bs-toggle="pill" data-bs-target="#v-pills-q" type="button" role="tab" aria-controls="v-pills-q" aria-selected="false">q</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-r-tab" data-bs-toggle="pill" data-bs-target="#v-pills-r" type="button" role="tab" aria-controls="v-pills-r" aria-selected="false">r</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-s-tab" data-bs-toggle="pill" data-bs-target="#v-pills-s" type="button" role="tab" aria-controls="v-pills-s" aria-selected="false">s</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-t-tab" data-bs-toggle="pill" data-bs-target="#v-pills-t" type="button" role="tab" aria-controls="v-pills-t" aria-selected="false">t</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-u-tab" data-bs-toggle="pill" data-bs-target="#v-pills-u" type="button" role="tab" aria-controls="v-pills-u" aria-selected="false">u</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-v-tab" data-bs-toggle="pill" data-bs-target="#v-pills-v" type="button" role="tab" aria-controls="v-pills-v" aria-selected="false">v</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-w-tab" data-bs-toggle="pill" data-bs-target="#v-pills-w" type="button" role="tab" aria-controls="v-pills-w" aria-selected="false">w</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-x-tab" data-bs-toggle="pill" data-bs-target="#v-pills-x" type="button" role="tab" aria-controls="v-pills-x" aria-selected="false">x</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-y-tab" data-bs-toggle="pill" data-bs-target="#v-pills-y" type="button" role="tab" aria-controls="v-pills-y" aria-selected="false">y</button>
+
+      <button class="btn btn-light text-dark btn-change shadow-none" data-mdb-ripple-color="dark" id="v-pills-z-tab" data-bs-toggle="pill" data-bs-target="#v-pills-z" type="button" role="tab" aria-controls="v-pills-z" aria-selected="false">z</button>
+    </div>
+  </div>
+</div>
+</div>
+    <div class='col-sm-10'>
+    <div class="tab-content" id="v-pills-tabContent">
+      <!-- a: -->
+      <div class="tab-pane fade show active" id="v-pills-a" role="tabpanel" aria-labelledby="v-pills-a-tab">
+          <div class="row">
+          <!--start-card-->
+            <div class="col-sm-3 card border-info">
+              <div class='card-title'>
+                Arthoscopy and Sports medicine/ Orthopedics
+              </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <div class='col-sm-3'></div>
+            <div class='col-sm-3'></div>
+            <div class='col-sm-3'></div>
+          <!--end-card-->
+          </div>
+      </div>
+      
+      <!-- b: -->
+      <div class="tab-pane fade" id="v-pills-b" role="tabpanel" aria-labelledby="v-pills-b-tab">
+        <h6>Oops! No services</h6>
+      </div>
+      
+      <!-- c:  -->
+      <div class="tab-pane fade" id="v-pills-c" role="tabpanel" aria-labelledby="v-pills-c-tab">
+        <div class="row">
+          <div class='col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Cardiac Care Unit</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!-- end-card -->
+            <!-- start-card -->
+            <div class="col-sm-3 card border-success">
+              <div class='card-title'>Cosmetology</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!-- end-card -->
+            <!-- start-card -->
+            <div class="col-sm-3 card border-info">
+              <div class='card-title'>Critical Care</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+          <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div> 
+      
+      <!-- d: -->
+      <div class="tab-pane fade" id="v-pills-d" role="tabpanel" aria-labelledby="v-pills-d-tab">
+        <h6>Oops! No services</h6>
+      </div>
+      
+      <!-- e: -->
+      <div class="tab-pane fade" id="v-pills-e" role="tabpanel" aria-labelledby="v-pills-e-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Endocrinology</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>ENT</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <div class='col-sm-3'></div>
+            <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>      
+      <!-- f: -->
+      <div class="tab-pane fade" id="v-pills-f" role="tabpanel" aria-labelledby="v-pills-f-tab">
+        <div class="row">
+          <div class='col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Family Medicine</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class="col-sm-3 card border-success">
+              <div class='card-title'>Foetal Medicine</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <div class='col-sm-3'></div>
+            <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div> 
+      
+      <!-- g: -->
+      <div class="tab-pane fade" id="v-pills-g" role="tabpanel" aria-labelledby="v-pills-g-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>General Surgery</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Gynecology and Obstetrics</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Gastroentenology</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Gi and Hepatobiliary</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+        </div>
+      </div> 
+      
+      <!-- h: -->
+      <div class="tab-pane fade" id="v-pills-h" role="tabpanel" aria-labelledby="v-pills-h-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Haemetology</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>High Risk Surgery Unit</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Haemato-Oncology</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Health Check-up</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- i: -->
+      <div class="tab-pane fade" id="v-pills-i" role="tabpanel" aria-labelledby="v-pills-i-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Infectious and hiv disease</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Internal medicine</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <div class='col-sm-3'></div>
+            <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- j: -->
+      <div class="tab-pane fade" id="v-pills-j" role="tabpanel" aria-labelledby="v-pills-j-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Joint Replacement Surgery</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <div class='col-sm-3'></div>
+            <div class='col-sm-3'></div>
+            <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- k: -->
+      <div class="tab-pane fade" id="v-pills-k" role="tabpanel" aria-labelledby="v-pills-k-tab">
+        <h6>Oops! No services</h6>
+      </div>
+      
+      <!-- l: -->
+      <div class="tab-pane fade" id="v-pills-l" role="tabpanel" aria-labelledby="v-pills-l-tab">
+        <div class="row">
+          <div class='col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Laproscopic Surgeries</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+          <div class='col-sm-3'></div>
+          <div class='col-sm-3'></div>
+          <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- m: -->
+      <div class="tab-pane fade" id="v-pills-m" role="tabpanel" aria-labelledby="v-pills-m-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Medical Intensive Care Unit</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Maxillofacial, Hair transplant</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+          <div class='col-sm-3'></div>
+          <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- n: -->
+      <div class="tab-pane fade" id="v-pills-n" role="tabpanel" aria-labelledby="v-pills-n-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Neonatology </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Nephrology</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Neurology</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Neurosurgery</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+        </div>
+      </div> 
+      
+      <!-- o: -->
+      <div class="tab-pane fade" id="v-pills-o" role="tabpanel" aria-labelledby="v-pills-o-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Opthalmology  </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Oncology and Ona Surgery </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Orthopedics/ Arthoscopy and Sports Medicine </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+        <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- p: -->
+      <div class="tab-pane fade" id="v-pills-p" role="tabpanel" aria-labelledby="v-pills-p-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Pain Management Clinic </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Pathology </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Pediatrics</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Pediatrics Surgery </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Physiotherapy and Rehabilitiation </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>PICU </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Plastic Surgery </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Preventive healthcare </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Psychiatry </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Pulmonology </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- q: -->
+      <div class="tab-pane fade" id="v-pills-q" role="tabpanel" aria-labelledby="v-pills-q-tab">
+        <h6>Oops! No services</h6>
+      </div>
+      
+      <!-- r: -->
+      <div class="tab-pane fade" id="v-pills-r" role="tabpanel" aria-labelledby="v-pills-r-tab">
+        <div class="row">
+          <div class='col-sm-3 col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Radiology </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Rheumatology </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+          <div class='col-sm-3'></div>
+          <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- s: -->
+      <div class="tab-pane fade" id="v-pills-s" role="tabpanel" aria-labelledby="v-pills-s-tab">
+        <div class="row">
+          <div class=' col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Spine surgery </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-success">
+              <div class='card-title'>Surgery Unit </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+            <!--end-card-->
+            <!--start-card-->
+            <div class=" col-sm-3 card border-info">
+              <div class='card-title'>Sports Medicine </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+          <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- t: -->
+      <div class="tab-pane fade" id="v-pills-t" role="tabpanel" aria-labelledby="v-pills-t-tab">
+        <h6>Oops! No services</h6>
+      </div>
+      
+      <!-- u: -->
+      <div class="tab-pane fade" id="v-pills-u" role="tabpanel" aria-labelledby="v-pills-u-tab">
+        <div class="row">
+          <div class='col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Urology </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+          <div class='col-sm-3'></div>
+          <div class='col-sm-3'></div>
+          <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      <!-- v: -->
+      <div class="tab-pane fade" id="v-pills-v" role="tabpanel" aria-labelledby="v-pills-v-tab">
+        <div class="row">
+          <div class='col-sm-3 card border-info'>
+            <!--start-card-->
+              <div class='card-title'>Vascular Surgeries </div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare convallis elit in pellentesque. Donec tristique turpis nulla, id mattis lectus mattis a.</p>
+                </div>
+            </div>
+          <div class='col-sm-3'></div>
+          <div class='col-sm-3'></div>
+          <div class='col-sm-3'></div>
+            <!--end-card-->
+        </div>
+      </div>
+      
+      <!-- w: -->
+      <div class="tab-pane fade" id="v-pills-w" role="tabpanel" aria-labelledby="v-pills-w-tab">
+        <h6>Oops! No services</h6>
+      </div>
+      
+      <!-- x: -->
+      <div class="tab-pane fade" id="v-pills-x" role="tabpanel" aria-labelledby="v-pills-x-tab">
+        <h6>Oops! No services</h6>
+      </div>
+      
+      <!-- y: -->
+      <div class="tab-pane fade" id="v-pills-y" role="tabpanel" aria-labelledby="v-pills-y-tab">
+        <h6>Oops! No services</h6>
+      </div>
+      
+      <!-- z: -->
+      <div class="tab-pane fade" id="v-pills-z" role="tabpanel" aria-labelledby="v-pills-z-tab">
+        <h6>Oops! No services</h6>
+      </div>
+    </div>
+    </div>
+</div>
+  </div>
+<!-- </div> -->
+<!--   </div> -->
+<!-- </div>
+</div> -->
+ 
+  <script src="script.js"></script>
+
+ <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
